@@ -37,14 +37,14 @@ section .trees {
     pointer-events: none;
 }
 
-section .girl {
+section .boy {
     position: absolute;
     scale: 0.65;
     pointer-events: none;
-    animation: animateGirl 15s linear infinite;
+    animation: animateBoy 15s linear infinite;
 }
 
-@keyframes animateGirl {
+@keyframes animateBoy {
     0% {
         transform: translateX(calc(100% + 100vw));
     }
